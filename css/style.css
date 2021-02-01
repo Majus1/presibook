@@ -1,0 +1,244 @@
+/* ::: BASE LAYOUT STYLES ::: */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #d9e3e5;
+}
+header {
+  background-color: #78828c;
+}
+hr {
+  width: 15%;
+  color: silver;
+}
+/* ::: SCROLBAR ::: */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey;  */
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #48665b; 
+}
+/* ::: SCROLBAR ::: */
+/* ::: BASE LAYOUT STYLES ::: */
+/* ::: BASE LAYOUT ID`s ::: */
+#light-coral {
+  background-color: #ff8a8a;
+}
+#orange-yellow-crayola {
+  background-color: #e5c46e;
+}
+#middle-blue-green {
+  background-color: #98dec5;
+}
+#user-dot-active {
+  position: absolute;
+  top: 10px;
+  margin: 0 10px;
+  width: 1rem;
+  height: 1rem;
+}
+#user-dot-idle {
+  position: absolute;
+  top: 10px;
+  margin: 0 10px;
+  width: 1rem;
+  height: 1rem;
+  background-color: #e5c46e;
+}
+#user-dot-nonactive {
+  position: absolute;
+  top: 10px;
+  margin: 0 10px;
+  width: 1rem;
+  height: 1rem;
+  background-color: #ff8a8a;
+}
+#chatting-participants-area-heading {
+  padding: 40px 0 20px;
+  margin-left: 1.5rem;
+  text-align: center;
+}
+#user-message {
+  outline: none;
+  border: none;
+  resize: none;
+  width: 89%;
+  padding-left: 20px;
+  padding-right: 40px;
+  height: 2.7rem;
+}
+/* ::: BASE LAYOUT ID`s ::: */
+/* ::: BASE LAYOUT CLASSES ::: */
+/* ::: chatting participants area ::: */
+.dot-active {
+    height: 0.7em;
+    width: 0.7em;
+    background-color: #98dec5;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 1px;
+}
+.arrow {
+  width: 0.8em;
+  margin-left: 12px;
+  margin-top: 1.5px;
+  transform: rotate(90deg);
+}
+.activity-indicator {
+  color: white;
+}
+.activity-indicator {
+  margin: 0;
+}
+.activity-status .dot-active {
+  margin-right: 10px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+.chatting-participants-active1,
+.chatting-participants-active2,
+.chatting-participants-active3,
+.chatting-participants-active4,
+.chatting-participants-active5 {
+  background-color: #d9e3e5;
+  border-radius: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  position: relative;
+}
+.chatting-participants-idle1,
+.chatting-participants-idle2 {
+  background-color: #d9e3e5;
+  border-radius: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  position: relative;
+}
+.chatting-participants-nonactive1,
+.chatting-participants-nonactive2,
+.chatting-participants-nonactive3,
+.chatting-participants-nonactive4,
+.chatting-participants-nonactive5,
+.chatting-participants-nonactive6,
+.chatting-participants-nonactive7,
+.chatting-participants-nonactive8,
+.chatting-participants-nonactive9,
+.chatting-participants-nonactive10,
+.chatting-participants-nonactive11,
+.chatting-participants-nonactive12 {
+  background-color: #d9e3e5;
+  border-radius: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  position: relative;
+}
+.chatting-participants-area p {
+  padding: 10px 10px 10px 35px;
+}
+.chatting-participants-area {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .4);
+  overflow-y: scroll;
+  height: 88.5%;
+  width: 20%;
+}
+.chat-area {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .4);
+  width: 78%;
+  height: 80%;
+}
+/* ::: chatting participants area ::: */
+/* ::: typing area ::: */
+.typing-area {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, .4);
+  width: 78%;
+  height: 7%;
+  margin-top: 1rem;
+}
+/* ::: typing area ::: */
+.wrapper1 {
+  margin: 1.5rem 1.5rem 0 1.5rem;
+}
+.typing-area > button {
+  padding: 10px 0 10px 0;
+  background-color: #43e4ab;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 10%;
+  border: 1px solid #35c291;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+/* ::: active users ::: */
+.activity-status {
+  position: relative;
+}
+/* ::: active users ::: */
+/* ::: BASE LAYOUT CLASSES ::: */
+  /* ::: FLOTAS ::: */
+  .menu-bar-buttons {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin: 0;
+  }
+  .activity-status {
+    float: left;
+    text-align: right;
+    width: 50%;
+    padding: 20px;
+    margin: 0;
+  }
+  .activity-status .dot-active,
+  .activity-indicator,
+  .arrow {
+    float: right;
+  }
+  .cf::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .chatting-participants-area {
+    float: left;
+  }
+
+  .chat-area,
+  .typing-area {
+    float: right;
+  }
+  #user-message,
+  .typing-area > button {
+    float: left;
+    margin: 10px 0 10px 0;
+  }
+  /* ::: FLOTAS ::: */
+
+
+
+  /* Dodal boš border radiuse in poštimal da se elementi v bodyu lepo delijo potem bos šel na chat participente */
